@@ -1,0 +1,23 @@
+.wrapper {
+  background: #a5a5a5;
+  width: 200px;
+  height: 200px;
+}
+.header {
+  background: #1f16d0;
+  width: 100%;
+  height: 30px;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 100%;
+}
+.left-hand {
+  align-self: auto;
+  scale: fit-content;
+}
+.right-hand {
+  align-self: auto;
+  scale: fit-content;
+}
