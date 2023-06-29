@@ -1,23 +1,29 @@
-.wrapper {
-  background: #a5a5a5;
-  width: 200px;
-  height: 200px;
+.screen-container {
+  height: 100%;
+  width: 100%;
 }
 .header {
   background: #1f16d0;
   width: 100%;
   height: 30px;
 }
-.container {
+.hands-container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
-  max-width: 100%;
+  width: 100%;
 }
-.left-hand {
-  align-self: auto;
-  scale: fit-content;
-}
+
+.left-hand,
 .right-hand {
-  align-self: auto;
-  scale: fit-content;
+  flex: 1 1 auto;
+  max-width: 50%;
+  height: auto;
+}
+.band {
+  width: 100%;
+  height: auto;
+  position: fixed;
+  bottom: 0;
+  left: 0;
 }
