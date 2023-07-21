@@ -1,8 +1,16 @@
 import "./App.css";
-import Window95 from "./Components/Window/Window95";
+import Title from "./Components/InfoComponents/Title/Title";
+import Background from "./Components/Structure/Background";
+import "./Components/Structure/Background.css";
 
 function App() {
-  return <Window95 />;
+  return (
+    //Components here there in line according to Z index from top to bottom
+    <>
+      <Title />
+      <Background />
+    </>
+  );
 }
 
 export default App;
