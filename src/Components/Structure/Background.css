@@ -1,10 +1,6 @@
-
-
-
 .screen-container {
   height: auto;
   width: 100%;
-
 }
 .header {
   background: #1f16d0;
@@ -34,11 +30,10 @@
 
 /* titulo: nombre de la banda */
 .screen-container h1 {
-  color:blue;
+  color: blue;
   font-style: none;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 15vh;
 }
-
