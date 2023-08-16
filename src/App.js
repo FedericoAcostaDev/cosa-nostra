@@ -9,6 +9,7 @@ function App() {
     //Components here there in line according to Z index from top to bottom
     <>
       <Title />
+      {/* <Hands/> */}
       <Dates />
       <Background />
     </>
